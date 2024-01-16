@@ -1,0 +1,85 @@
+@media screen and (max-width: 600px) {
+    header{max-width: 90%;
+    margin:0 auto;}
+    a{display: none;}
+    #bar{display:inline;
+   margin-left: 140px;}
+
+    #title{
+        color: #131318;
+        font-size: 21px;
+        font-weight: 800;
+        }
+        .special{
+            color: #FF5400;
+            font-size: 21px;
+            font-weight: 800;}
+
+            .section1-texts {
+                padding-top: 30px;
+                text-align: center;}
+
+                .section1-texts>h2 {
+                    color: #FFF;
+                    font-size: 22px;
+                    font-weight: 800;
+                  }
+                  .bg-color{border-radius: 16px;
+                  color:#131318, #13131800 ; background-repeat: no-repeat;}
+
+                  .section1-inputs {
+                    text-align: center;
+                    padding-top: 30px;
+                   
+                    border-radius: 8px;
+                }
+            .section1-bg{
+              
+                border-radius: 5px;
+                display: grid;
+                grid-template-areas: 1fr ;
+                flex-direction: column;
+                align-content: center;
+                justify-content: center;
+                align-items: center;
+            
+                 }
+
+                 .section1-bg > input  {width: 240px;
+                    height: 52px;
+                    flex-shrink: 0;
+                margin-left:0px;}
+
+                    .section1-bg > select {width: 255px;
+                        height: 52px;
+                        flex-shrink: 0;
+                        margin-left:0px;}
+                        .section1-bg > button {width: 255px;
+                            height: 52px;
+                            flex-shrink: 0;
+                            margin-left:0px;}
+
+                            .section1-inputs {
+                                text-align: center;
+                                padding-top: 80px;
+                                padding-bottom: 0px; 
+                                border-radius: 8px;
+                            }
+
+                 .section-2{ max-width: 500px;
+                    max-width: 82%;
+                    margin: 0 auto;
+                    border-radius: 16px;
+                    margin-top: 24px;}
+                    .header-title{font-size: 24px;}
+                    #s2-text{font-size: 16px;}
+                   
+                 .s2-container{flex-direction: column;}
+                 .s2-img > img {max-width: 500px;
+                    max-width: 95%;
+                    margin: 0 auto;
+                     padding-top: 24px;
+
+              }
+              
+            }          
