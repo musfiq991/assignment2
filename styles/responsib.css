@@ -126,12 +126,19 @@
     padding-top: 16px;
     padding-bottom: 16px;
   }
-  .row{flex-direction: column;gap: 16px;}
-  .row p {color: #FFF;
+  .row {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .row p {
+    color: #fff;
     text-align: center;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;}
-
+    line-height: normal;
+  }
+  .s4-services{flex-direction: column;}
+  .services-contain3{ max-width: 100%;
+  margin: 0 auto;margin-bottom: 24px;}
 }
