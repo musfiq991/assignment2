@@ -9,7 +9,7 @@ body {
   font-family: "Mulish", sans-serif;
 }
 
-#title {
+.title {
   color: #131318;
   font-size: 36px;
   font-weight: 800;
@@ -183,7 +183,8 @@ body {
   font-size: 40px;
   font-weight: 800;
 }
-.s3 {
+.s3,
+.s5 {
   margin-top: 100px;
   max-width: 1170px;
   max-width: 82%;
@@ -216,7 +217,6 @@ body {
 .row p {
   color: #fff;
   text-align: center;
-  font-family: Mulish;
   font-size: 28px;
   font-style: normal;
   font-weight: 800;
@@ -267,7 +267,87 @@ body {
   padding-left: 32px;
   padding-top: 32px;
 }
-.services-contain3{text-align: left; padding-top: 32px; padding-left: 32px;border-radius: 16px;
-  border: 1px solid rgba(233, 68, 68, 0.20);
-  background: rgba(233, 68, 68, 0.05); max-width: 50%;
-margin: 0 auto;margin-bottom: 100px;}
+.services-contain3 {
+  text-align: left;
+  padding-top: 32px;
+  padding-left: 32px;
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+  max-width: 50%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.newsletter {
+  max-width: 100%;
+}
+.travel-img {
+  max-width: 100%;
+}
+input {
+  width: 393px;
+  height: 52px;
+  flex-shrink: 0;
+  padding-left: 20px;
+  color: rgba(19, 19, 24, 0.3);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  border: none;
+}
+button {
+  width: 393px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  border: none;
+}
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border-radius: 16px;
+  border: 1px solid #ff5400;
+  padding: 40px;
+}
+.s5 {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 100px;
+}
+footer {
+  max-width: 1440px;
+  max-height: 502px;
+  flex-shrink: 0;
+  background: rgba(19, 19, 24, 0.05);
+}
+.footer-header {padding-top: 32px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.footer-header{font-size: 60%;}
+
+footer p {text-align: center;padding:30px}
+.icons{text-align: center;}
+.footer-icons{font-size: 30px;}
+.icon2{padding-left: 20px;}
+.icon3{padding-left: 20px;}
+hr {max-width: 872px;
+  max-width: 85%;
+  height: 1px; margin: 0 auto; }
+  .line{padding-top: 30px;padding-bottom: 30px;}
+  .copyright{text-align: center;padding-bottom: 110px;}
+  
+
